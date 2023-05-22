@@ -6,6 +6,8 @@ while(indexi < masivi.length){
     indexi++
     if(masivi[indexi] == 1 || masivi[indexi] == 5 || masivi[indexi] == 9){
         continue;
+    }if(indexi > (masivi.length - 1) ){
+        break;
     }
 
     document.write(masivi[indexi] + "<br>");
